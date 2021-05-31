@@ -15,7 +15,7 @@ https://nardo88.github.io/circle-progress/
 ```
 
 
-### css
+### CSS
 
 ```css
 html, body{
