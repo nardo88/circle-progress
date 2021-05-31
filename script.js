@@ -11,6 +11,7 @@ circle.style.strokeDasharray = `${circleLength} ${circleLength}`;
 circle.style.strokeDashoffset = circleLength;
 
 function progress(persent) {
+    
     const offSet = circleLength - persent / 100 * circleLength;
     circle.style.strokeDashoffset = offSet;
 }
