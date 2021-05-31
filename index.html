@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle progress</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="progress__wrapper">
+        <svg class="progress-ring" width="120" height="120">
+            <!-- Радиус считается r = (widhth / 2 ) - (stroke-width * 2) -->
+            <circle class="progress-ring__circle" stroke="#fff" stroke-width="4" cx="60" cy="60" r="52" fill="transparent" />
+        </svg>
+        <span class="value">0</span>
+    </div>
+    
+
+
+</body>
+</html>

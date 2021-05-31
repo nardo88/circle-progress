@@ -1,0 +1,45 @@
+html, body{
+    background-color: skyblue;
+    height: 1200px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.progress-ring__circle{
+    /* Это свойство может разбить обвотку круга на участки по 10 пикселей между которыми будет 20 пикселей растояния */
+    /* stroke-dasharray: 10 20; */
+
+    /* это свойство может вставить в нашу окружность бреш и длина этой бреши может задаваться в процентах */
+    /* stroke-dashoffset: 30; */
+
+
+    transform-origin: center;
+    transform: rotate(-90deg);
+    transition: .3s;
+}
+
+.progress__wrapper{
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 35px;
+    line-height: 1;
+}
