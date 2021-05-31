@@ -2,7 +2,7 @@
 
 https://nardo88.github.io/circle-progress/
 
-###HTML
+### HTML
 
 ```html
 <div class="progress__wrapper">
@@ -15,7 +15,7 @@ https://nardo88.github.io/circle-progress/
 ```
 
 
-###css
+### css
 
 ```css
 html, body{
@@ -66,7 +66,7 @@ html, body{
 ```
 
 
-###JavaScript
+### JavaScript
 
 ```JavaScript
 
